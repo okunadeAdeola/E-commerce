@@ -1,0 +1,457 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+#body{
+width: 100%;
+background-color: purple;
+overflow-x: hidden;
+}
+#bodydash{
+    background-color: blue;
+}
+.secBiore{
+    background-color: crimson;
+}
+.secEaget{
+    background-color: turquoise;
+}
+section{
+    width: 100vw;
+}
+#cartt{
+    margin-left: -20px;
+}
+#cartt:hover{
+    color: orange;
+}
+#image{
+    width: 100%;
+}
+#button{
+    border: 1px solid orange;
+    background-color: orange;
+    margin-left: 15px;
+    width: 130px;
+}
+#button2{
+    border: 1px solid orange;
+    background-color: red;
+    margin-left: 15px;
+    width: 130px;
+}
+#sell{
+    color: orange;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sell{
+    text-decoration: none;
+}
+#jumia{
+    font-weight: bold;
+    font-size: 12px;
+}
+#a{
+    text-decoration: none;
+    width: 2px;
+}
+.a{
+    max-width: 2px;
+    color: blue;
+}
+.pay{
+    color: rosybrown;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+}
+.pay:hover{
+    color: blue;
+}
+.food{
+    color: rosybrown;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+}
+.food:hover{
+    color: blue;
+}
+.party{
+    color: rosybrown;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+}
+.party:hover{
+    color: blue;
+}
+.logistics{
+    color: rosybrown;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+}
+.logistics:hover{
+    color: blue;
+}
+.hall{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+#jumi{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-decoration: none !important;
+}
+#jum{
+    text-decoration: none !important;
+}
+#fav{
+    margin-top: -15px;
+}
+#input1{
+    width: 45%;
+    height: 40px;
+    border: 2px solid seagreen;
+}
+::placeholder{
+    font-weight: bold;
+}
+#butt{
+    background-color: rgb(255,153,0);
+    color: white;
+    font-weight: bold;
+    /* margin-left: -80px; */
+}
+li{
+    list-style: none;
+}
+#lik{
+    margin-top: 0px;
+    /* margin-left: -90px; */
+}
+#lik:hover{
+    color:  rgb(255,153,0);
+}
+#dat{
+    margin-left: 150px;
+    margin-top: -25px;
+}
+#one{
+    margin-left: -10px;
+}
+#help{
+    margin-top: -70px;
+    text-decoration: none;
+    margin-left: 130px;
+}
+#caro{
+    margin-top: 20px;
+}
+#prov{
+    margin-top: 20px;
+}
+#fee{
+    margin-top: 20px;
+}
+.one, .two, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
+    font-size: 13px;
+    margin-left: 5px;
+    color: black;
+}
+.three{
+    font-size: 13px;
+    /* margin-left: -25px; */
+    margin-top: -50px;
+    color: black;
+}
+.mt{
+    margin-top: -10px;
+}
+.sup{
+    margin-left: -5px;
+}
+.one:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.two:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.three:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.four:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.five:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.six:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.seven:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.eight:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.nine:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.ten:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.eleven:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.twelve:hover{
+    margin-left: 10px;
+    color: orange;
+}
+.dd{
+    margin-left: -10px;
+}
+.oe{
+    text-decoration: none;
+}
+#three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #ten:hover, #tenn:hover {
+    transform: scale(1.1);
+}
+.tab, .up, .tele, .groce, .ref, .elect, .men, .best{
+    font-size: 13px;
+}
+.bestt{
+    font-size: 13px;
+}
+
+#user{
+    width: 30px;
+    border: 0px;
+    background-color: rgb(230, 22,1);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#user1{
+    width: 30px;
+    border: 0px;
+    background-color: rgb(230, 22,1);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#user2{
+    width: 30px;
+    border: 0px;
+    background-color: rgb(230, 22,1);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#see{
+    text-decoration: none;
+    margin-left: 300px;
+    color: white;
+}
+#da{
+    background-color: rgb(230, 22,1);
+}
+#divone:hover, #divtwo:hover, #divthree:hover, #divfour:hover, #divfive:hover, #divsix:hover{
+    transform: scale(0.9);
+} 
+
+#divfour{
+    text-decoration: none;
+}
+#imgone:hover, #imgtwo:hover, #imgthree:hover, #imgfour:hover, #imgfive:hover, #imgsix:hover{
+    transform: scale(0.9);
+}
+#imgone, #imgtwo, #imgthree, #imgfour, #imgfive, #imgsix{
+    width: 100% !important;
+}
+#divfour{
+    width: 100% !important;
+}
+
+
+#butbiore{
+    width: 50%;
+    /* height: 80%; */
+}
+#eaget{
+    width: 50%;
+    /* height: 80%; */
+}
+#prov1{
+    height: 60%;
+    margin-top: 30px;
+}
+#adidas{
+    width: 50%;
+    /* height: 80%; */
+}
+#skyrun{
+    width: 50%;
+}
+#eilifinte{
+    width: 50%;
+}
+#oraimo{
+    width: 50%;
+    background-color: rgb(155,196,48);
+}
+#tu{
+    color: rgb(155,196,48);
+}
+.jumia{
+    font-size: 12px;
+}
+.favi{
+    margin-left: 5px;
+    margin-top: -15px;
+}
+.twot{
+    color: white;
+    margin-left: 40px;
+    margin-top: -30px; 
+    font-size: 13px; 
+    font-weight: bold;
+}
+.de{
+    font-size: 12px;
+    color: white;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+/* twoty{
+    margin-top: -50px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 50px;
+} */
+#maleone:hover{
+    border: 2px solid orange;
+    color: orange;
+}
+#jumtwo{
+    font-size: 10px;
+    font-weight: bold;
+}
+#mailtwo{
+    height: 40px;
+    width: 200px;
+}
+.load{
+    color: white;
+    font-size: 8px;
+    border: 1px solid white;
+    width: 90px;
+    margin-left: 20px;
+}
+.appy{
+    margin-left: 20px;
+}
+.load:hover{
+    border: 2px solid orange;
+    color: orange;
+}
+#fall{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+#fall1{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+}
+#carting{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-left: 100px; */
+}
+#conn{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#mag{
+    background-color: rgb(83,83,87);
+}
+#face{
+    height: 20px;
+    width: 50px;
+}
+.hr{
+    color: white;
+    margin-top: 100px;
+}
+.paytwo, .foodtwo, .partytwo, .logisticstwo{
+    color: white;
+    font-size: 10px;
+    margin-left: 10px;
+}
+.paytwo:hover, .foodtwo:hover, .partytwo:hover, .logisticstwo:hover{
+    color: orange;
+}
+#products{
+    float: right;
+    margin-top: -210px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#producta{
+    float: right;
+    margin-top: -170px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#productc{
+    float: right;
+    margin-top: -150px;
+    /* font-weight: bolder; */
+}
+#delete{
+    float: right;
+    margin-top: -130px;
+}
+#add{
+    float: right;
+    margin-top: -100px;
+}
+.img-fluid1{
+    width: 50%;
+    height: 70%;
+
+}

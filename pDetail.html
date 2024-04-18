@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="displayCart()">
+    <section>
+    <img id="image" src="./image/free-delivery-top-strip_1 (1).gif" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <a class="sell" href=""><img src="./image/favicon.87f00114 (1).ico" height="10px" alt=""><span id="sell"> Sell on Jumia</span></a>
+            </div>
+            <div class="col-lg-5">
+               <span id="jumia">JUMIA</span><span><img src="./image/favicon.87f00114 (1).ico" height="10px" alt=""></span>
+               <a id="a" href=""><span class="pay">💎PAY</span></a>
+               <a id="a" href=""><span class="food">🍨FOOD</span></a>
+               <a id="a" href=""><span class="party">🧨PARTY</span></a>
+               <a id="a" href=""><span class="logistics">©LOGISTICS</span></a>
+            </div> 
+            <div class="col-lg-3">
+              
+                
+            </div>
+        </div>
+    </div>
+    
+    
+        <nav id="nav" class="navbar bg-body-tertiary navbar-expand-lg w-100">
+          <div class="container w-100">
+            <div  class="row mr-5">
+              <a class="navbar-brand" href="#">
+                <a id="jum" href=""><span id="jumi">JUMIA</span><span><img id="fav" src="./image/favicon.87f00114 (1).ico" height="20px" alt=""></a></span>
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
+            </button>
+            <input id="input1" type="text" placeholder="Search products, brands and categories">
+            <button id="butt" class="btn">SEARCH</button>
+            <li class="nav-item dropdown">
+              <a id="lik" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./image/1-removebg-preview (1).png" height="20px" alt=""><span>Account</span>
+              </a>
+              <ul class="dropdown-menu">
+                <button class="btn text-light" id="button"><a class="text-decoration-none text-light" href="signUp.html">SIGN IN</a></button>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="signIn.html"><img src="./image/1-removebg-preview (1).png" height="20px" alt=""><span class="ms-3">My Account</span></a></li>
+                <li><a class="dropdown-item" href="#"><img src="./image/order.png" height="20px" alt=""><span class="ms-3">Orders</span></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#"><img src="./image/save.png" height="20px" alt=""><span class="ms-3">Saved Items</span></a></li>
+              </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="lik" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./image/2-removebg-preview.png" height="15px" alt=""><span>Help</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Help Center</a></li>
+              <li><a class="dropdown-item" href="#">Place & Track order</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Order cancellation</a></li>
+            </ul>
+        </li>
+      <a id="carting" data-bs-toggle="modal" data-bs-target="#exampleModal"  href="#"> <img src="./image/3.png" height="20px" width="20px" alt="">
+        <span  id="cartt"></span></a> 
+            </div>
+          </div>
+          </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+              <div id="prov" class="col-lg-2 bg-light rounded shadow">
+                <p class="sup"><a class="oe" href=""><span><img src="./image/apple real.png" height="20px" alt=""><span class="one">Supermarket</span></a></p>
+                <p class="mt"><a<a class="oe" href=""><span><img src="./image/health real.jpg" height="20px" alt=""><span class="two ">Health & Beauty</span></a></p>
+                <p class="mt"><a class="oe" href=""><span><img class="dd" src="./image/Home & Office.png" height="20px" alt=""><span class="three">Home & Office</span></a></p>
+                <p class="mt"><a class="oe"  href=""><span><img src="./image/pho.png" height="20px" alt=""><span class="four">Phones & Tablets</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/comput.png" height="20px" alt=""><span class="five">Computing</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/electro.jpg" height="20px" alt=""><span class="six">Electronics</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/fashio.png" height="20px" alt=""><span class="seven">Fashion</span></a></p>
+               <p class="mt"><a class="oe"  href=""><img src="./image/baby.png" height="20px" alt=""><span class="eight">Baby Products</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/game.png" height="20px" alt=""><span class="nine">Gaming</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/sport.jpg" height="20px" alt=""><span class="ten">Sporting Goods</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/automo.png" height="20px" alt=""><span class="eleven">Automobile</span></a></p>
+                <p class="mt"><a class="oe"  href=""><img src="./image/other cat.png" height="20px" alt=""><span class="twelve">Other Categories</span></a></p>
+              </div>
+               <div class="col-lg-7">
+              
+                <div class="text-center mt-4">
+                    <img class="img-fluid rounded" id="productImage"  src="" alt="product image">
+                    <p class="fs-5 fw-bold text-primary"></p>
+                    <!-- <span class="fw-bold fs-5 text-primary" id="pName"></span> -->
+                    <span class="fw-bold fs-5 text-primary" id="pName"></span> <br>
+                    <span class="fw-bold text-decoration-none text-primary fs-5" id="productPrice"></span>
+               <div><button onclick="addToCart()" id="eaget" class="btn btn-lg bg-primary text-light">Add to cart</button></div>  
+                </div>
+               </div>
+              <div id="fee" class="col-lg-3">
+                 <img class="rounded" src="./image/Free Delivery (2).png" height="200px" alt="">
+                <img class="mt-5 rounded" src="./image/JFORCE (2).png" height="200px" alt="">
+              </div>
+            </div>
+           </div> 
+        </section>
+    <div id="disp"></div>
+    <div id="dis"></div>
+
+
+
+    <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade modal-centered modal-scrollable" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="div1" style="max-height: 60dvh; overflow-y: auto;">
+
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script>
+
+
+
+        // display single product
+        function displayCart(){
+            var theStorage  = localStorage.getItem('dynamicProduct')
+            // console.log(localStorage.dynamicProduct);
+            if (theStorage) {
+                var theData  = JSON.parse(theStorage)
+                // console.log(theData)
+                pName.innerHTML = theData.pName  || theData.price
+                productPrice.innerHTML = theData.price 
+                productImage.attributes.src.value  = theData.image
+              // console.log(theData.image);  
+              }
+        }
+        displayCart()
+        // add cart
+        var theStorage  = localStorage.getItem('dynamicProduct')
+        var theData  = JSON.parse(theStorage)
+        // console.log(theData);
+        // console.log(localStorage.ecommerCart);
+
+
+
+
+      const addToCart=()=>{
+          var productName = pName.innerHTML
+          var realPrice = productPrice.innerHTML
+          console.log( pName.innerHTML, productPrice.innerHTML,theData.image)
+          document.getElementById("cartt").innerHTML = `${JSON.parse(localStorage.getItem('ecommerCart')).length}`
+          if (localStorage.getItem('ecommerCart')) {
+            // console.log('here')
+            
+            var sameCart  = JSON.parse(localStorage.getItem('ecommerCart'))
+            // console.log(sameCart.length)
+          //  old products
+            // [{}, {}]
+
+            var findProduct  = sameCart.find(eachP => eachP.productName === productName ) // {quantity}
+
+            if (findProduct) {
+              findProduct.quantity++
+
+              thePosition = sameCart.indexOf(findProduct)
+
+              sameCart[thePosition] = findProduct
+
+              localStorage.setItem('ecommerCart', JSON.stringify(sameCart))
+              displayed()
+            }
+              // the second and the other products
+            else{
+                  var thecart  = {
+                  productName: productName,
+                  price: realPrice,
+                  quantity: 1,
+                  image:theData.image,
+                }
+                // console.log(thecart);
+                sameCart.push(thecart)
+                // console.log(sameCart);
+                localStorage.setItem('ecommerCart', JSON.stringify(sameCart))
+                document.getElementById("cartt").innerHTML = `${sameCart.length}`  
+                displayed()         
+            }
+
+            
+          }else {
+
+            console.log('there')
+            // create first product
+            var theEcommerce  = []
+            var thecart  = {
+              productName:productName,
+              price: realPrice,
+              quantity: 1,
+              image:theData.image,
+            }
+
+            theEcommerce.push(thecart)
+             console.log(theEcommerce);
+
+            localStorage.setItem('ecommerCart', JSON.stringify(theEcommerce))
+            document.getElementById("cartt").innerHTML = `${sameCart.length}`
+            displayCart()
+            displayed()
+          }
+      }
+  //     let file=productImage.files[0]
+  //              let reader=new FileReader()
+  //              reader.onloadend=function(){
+  //               let base64String=reader.result
+  //               var thecart  = {
+  //               productName: productName,
+  //               price: realPrice,
+  //               quantity: 1,
+  //               image:base64String,
+  //             }
+  //             // console.log(thecart);
+  //             sameCart.push(thecart)
+  //             console.log(sameCart);
+  //             localStorage.setItem('ecommerCart', JSON.stringify(sameCart))
+  //              }
+  //             reader.readAsDataURL(file) 
+  //           }
+  // </script>
+
+<script>
+  const displayed = ()=>{
+    var sameCart  = JSON.parse( localStorage.getItem('ecommerCart'))
+
+    console.log(sameCart)
+    div1.innerHTML = ""
+  for (let index = 0; index < sameCart.length; index++) {
+     div1.innerHTML +=`
+     <div id=${'product' + index}  class="card" style="width: 28rem; height:10rem;">
+      <div> <img id=${'image' + index} src=${sameCart[index].image} class="img-fluid1" alt="..."></div>
+            <div class="card-body">
+                            
+              <h5 id="products" class="card-title">${sameCart[index].productName}</h5>
+              <p id="producta" class="card-text">${sameCart[index].price}</p>
+              <p id="productc" class="card-text">${sameCart[index].quantity}</p>
+              <button id="delete" onclick="deleteItem(${index})">➖</button>
+              <button id="add" onclick="addItem(${index})">➕</button>
+              <div></div>
+              </div>
+          </div></div>
+     `
+   ;
+          // displayed()
+   document.getElementById(`${'image' + index}`).attributes.src.value  =sameCart[index].image
+
+
+     
+  }
+}
+displayed()
+const addItem = (index)=>{
+  
+}
+
+const deleteItem =(index)=>{
+  var sameCart  = JSON.parse( localStorage.getItem('ecommerCart'))
+  sameCart.splice(index,1)
+  localStorage.setItem('ecommerCart', JSON.stringify(sameCart))
+  const theElement = document.getElementById(`${'product' + index}`)
+  console.log(theElement)
+  theElement.remove()
+  document.getElementById("cartt").innerHTML = `${sameCart.length}`
+  console.log(sameCart);
+  // displayed()
+  }
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

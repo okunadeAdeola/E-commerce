@@ -1,0 +1,81 @@
+@media(max-width: 600px){
+    #shadowone{
+        width: 70%;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    #divone, #divtwo, #divthree, #divfour, #divfive #imgsix{
+        margin-left: 40px;
+      
+    }
+    /* #shadowtwo{
+        width: 90%;
+        margin-top: 70px;
+        margin-left: 30px;
+    } */
+    #shadowtwoo{
+        display: none;
+    }
+
+    #col{
+        display: none;
+    }
+    #ten{
+        margin-left: -30px;
+    }
+      .up, .tele, .groce, .ref, .elect, .bestt{
+        font-size: 13px;
+        margin-left: 120px !important;
+    } 
+    #tab{
+        margin-left: 100px !important;
+    }
+    .men{
+        margin-left: 100px !important;
+    }
+    .best{
+        margin-left: 180px !important;
+    }
+    #adds{
+        width: 100%;
+        display: none;
+    }
+    #image{
+        margin-left: 50px;
+        margin-top: 100px;
+        height: 220px;
+        width: 220px;
+        display: none;
+    }
+    #member{
+        color: black;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    #mail, #pass{
+        width: 80%;
+        margin-left: 20px;
+        
+    }
+    #sign {
+        width: 80%;
+        margin-left: 100px;
+        background-color: green;
+        border-radius: 50px;
+        margin-left: 20px;
+    }
+    #forgot{
+        margin-left: 40px;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    #create{
+        margin-left: 40px;
+        /* margin-top: 200px !important; */
+        font-size: 10px;
+        color: black;
+        text-decoration: none;
+    
+    }
+    
+}
